@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morocco travel agency</title>
+
+    <link rel="shortcut icon" href="imgs/LOGO.jpg" type="image/x-icon">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/daddc78cf0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="imgs/nav-logo.png" alt="this is an logo for beach island landscape">
+            </div>
+            <nav>
+                <div class="menu-bar" id="menuBar" data-expended="false">
+                    <span></span><span></span><span></span>
+                </div>
+                <ul id="navList" class="nav-list" data-visible="false">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#">who are we</a></li>
+                    <li>Tours
+                        <ul class="mega-menu" id="megaMenu" aria-hidden="false">
+                            <li><a href="#">marrakech</a></li>
+                            <li><a href="#">ouarzazate</a></li>
+                            <li><a href="#">casablanca</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">trips</a></li>
+                    <li><a href="#">trekking</a></li>
+                    <li><a href="#">transfers</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="landing" id="home"></div>
+        <div class="slider" id="slider">
+            <h2 class="title">trips on morocco from 25$</h2>
+            <hr>
+            <div class="container" id="sliderContainer">
+                <button class="arrow-left">
+                    <i class="fa-solid fa-arrow-left arrow-left"></i>
+                </button>
+                <div class="box">
+                    <img src="imgs/Marrakesh_Morocco.jpg" alt="this is a picture of a musque in marrakech Morocco">
+                    <div class="body">
+                        <h2>Marrakesh</h2>
+                        <hr>
+                        <p>City in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/ksar-ait-benhaddou.jpg" alt="this is a picture of ksar ait benhaddou Morocco">
+                    <div class="body">
+                        <h2>Aït Benhaddou</h2>
+                        <hr>
+                        <p>Village in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/essaouira.jpg" alt="this is a picture of a beach in Essaouira">
+                    <div class="body">
+                        <h2>Essaouira</h2>
+                        <hr>
+                        <p>City in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/asilah.jpg" alt="this is a picture of a asilah">
+                    <div class="body">
+                        <h2>Asilah</h2>
+                        <hr>
+                        <p>Town in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/Larache.jpg" alt="this is a picture of Larache city">
+                    <div class="body">
+                        <h2>Larache</h2>
+                        <hr>
+                        <p>City in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/Tinghir.jpg" alt="this is a picture of Tinghir">
+                    <div class="body">
+                        <h2>Tinghir</h2>
+                        <hr>
+                        <p>City in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/Chefchaouen.jpg" alt="this is a picture of Chefchaouen">
+                    <div class="body">
+                        <h2>Chefchaouen</h2>
+                        <hr>
+                        <p>City in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs/Tetouan.jpg" alt="this is a picture of Tetouan">
+                    <div class="body">
+                        <h2>Tetouan</h2>
+                        <hr>
+                        <p>City in Morocco</p>
+                        <span>From<span class="price">25$</span></span>
+                        <input type="button" name="details" id="detailsBtn" value="see details">
+                    </div>
+                </div>
+                <button class="arrow-right">
+                    <i class="fa-solid fa-arrow-right arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="trips" id="trips">
+            <h2 class="title">our best trip selections</h2>
+            <hr>
+            <div class="container">
+                <div class="trips-slider">
+                    <div class="box">
+                        <img src="imgs/koutoubia-mosque-minaret-located-at-medina-quarter-of-marrakesh-morocco-balate-dorin.jpg" alt="koutoubia-mosque-minaret-located-at-medina-quarter-of-marrakesh-morocco-balate-dorin">
+                        <div class="description">
+                            <h3>imperial cities</h3>
+                            <span>8 jours</span>
+                            <span>departure from Marrakesh</span>
+                        </div>
+                    </div>
+                    <div class="box active">
+                        <img src="imgs/ksar-ait-benhaddou.jpg" alt="this is a picture of a village in Morocco">
+                        <div class="description">
+                            <h3>the circuit of the great south</h3>
+                            <span>5 jours</span>
+                            <span>departure from Marrakesh</span>
+                        </div>
+                        <input type="button" value="More Details">
+                    </div>
+                    <div class="box">
+                        <img src="imgs/desrt-camels.jpg" alt="this is a picture of camels in a desert">
+                        <div class="description">
+                            <h3>merzouga desert</h3>
+                            <span>10 jours</span>
+                            <span>departure from zagora</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="why-choose-us">
+            <h2 class="title">why choose us</h2>
+            <div class="container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti consectetur numquam mollitia
+                    facere, dolorem iure repudiandae illum doloremque sunt qui.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, debitis?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse eos suscipit tempora, ex itaque id
+                    veniam quos autem deserunt porro numquam possimus, nobis laboriosam animi molestiae deleniti? Nulla,
+                    eveniet doloremque.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex distinctio maiores quaerat enim vitae
+                    ratione provident ipsam, architecto aperiam? Obcaecati minus alias molestiae. Voluptas sed ut saepe
+                    id provident ratione optio aut pariatur atque dolore? Blanditiis itaque cum, excepturi similique non
+                    maiores consequuntur laboriosam, hic minima enim ab! Saepe, molestias?
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="box">
+            <img src="imgs/nav-logo.png" alt="this is our logo">
+            <div class="social-media">
+                <span>we are social</span>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>made with <i class="fa-solid fa-heart"></i> by <span>mustapha nkhili</span></p>
+                <p><span id="copyrightYear"></span> Morocco travel agency All Right Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
